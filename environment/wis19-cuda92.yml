@@ -1,0 +1,16 @@
+name: wis19
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.6
+  - anaconda=5.3
+  - pytorch=0.4.1
+  - cuda92
+  - tensorflow-gpu=1.11
+  - cudatoolkit<=9.2
+  - tensorboardx=1.4
+  - nbgrader=0.5.4
+  - pip:
+    - torchvision==0.2.1
