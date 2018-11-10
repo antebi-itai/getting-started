@@ -5,7 +5,7 @@ Welcome to the [*Introduction to Computer Vision*](https://wis-intro-vision-2019
 To get started, follow these instructions:
 1. Go to the [course site](https://wis-intro-vision-2019.wikidot.com/) and create an account. This will add you to the mailing list.
 2. Go to [GitHub](https://github.com/) and login or create an account.
-3. Install [Anaconda](https://www.anaconda.com/download/) / [Miniconda](https://conda.io/miniconda.html). Make sure you to check the **Add Anaconda to my PATH environment variable** option during the installation (see image below).
+3. Install [Anaconda](https://www.anaconda.com/download/) / [Miniconda](https://conda.io/miniconda.html). Make sure you to check the **Add Anaconda to my PATH environment variable** option during the installation (see image below).  
 ![Add to PATH](https://i.stack.imgur.com/rxpOG.png)
 4. Install a git client. If you are intimidated by command-line, you may prefer to install [GitHub Desktop](https://desktop.github.com/). Otherwise, you can install [git](https://git-scm.com/downloads).
 5. If you are new to git, use the provided resources to get started:
