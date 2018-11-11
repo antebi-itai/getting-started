@@ -17,5 +17,25 @@ To get started, follow these instructions:
     - **Windows:** `environment/setup-win.bat`
     - **Linux:** `environment/setup-linux.bat`
     - **Mac:** `environment/setup-mac.bat`
-9. If you want to select the course environment in IDE like PyCharm or VS Code, look for the `wis19` environment.
-10. You can also activate the environment from command-line by typing `conda activate wis19`. Then you can open interactive shell by typing `ipython`, or open a notebook by typing `jupyter notebook`.
+
+9. If you want to select the course environment in IDE like *PyCharm* or *VS Code*, look for the `wis19` environment.
+
+
+# Troubleshooting
+
+## Error when running the `setup` script
+### Windows
+1. If you get the following error message:
+    > 'conda' is not recognized as an internal or external command, operable program or batch file.
+
+    Then open *Anaconda Prompt* (from *Start* menu), drag the script into it, and press *Enter* to run it. If this step was needed, you should repeat it when running the scripts to open the notebooks (see in the relevant exercises). 
+
+### Linux and Mac
+1. If you get the following error message:
+    > bash: conda: command not found
+
+    Then open *bash* and run the following command (to add *Anaconda3* to your path):
+    ```bash
+    echo ". $HOME/anaconda3/etc/profile.d/conda.sh" >> ~/.bashrc
+    ```
+    If Anaconda is installed at a different location, change the script accordingly. This will work for Anaconda2 and Miniconda with appropriate changes.
