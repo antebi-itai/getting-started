@@ -11,5 +11,8 @@ dependencies:
   - cudatoolkit<=9.0
   - tensorboardx=1.4
   - nbgrader=0.5.4
+  - scikit-video=1.1.11
+  - opencv=3.4.1
+  - ffmpeg=4.1
   - pip:
     - torchvision==0.2.1
