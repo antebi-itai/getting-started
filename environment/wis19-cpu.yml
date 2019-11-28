@@ -1,17 +1,11 @@
 name: wis19
 channels:
   - defaults
-  - pytorch
   - conda-forge
 dependencies:
   - python=3.6
-  - anaconda=5.3.0
-  - pytorch-cpu=0.4.1
-  - tensorflow=1.11
-  - tensorboardx=1.4
-  - nbgrader=0.5.4
+  - anaconda=2019.10
   - scikit-video=1.1.11
-  - opencv=3.4.1
   - ffmpeg=4.1
-  - pip:
-    - torchvision==0.2.1
+  - nbgrader=0.6.1
+  - nbdime=1.1.0
