@@ -12,12 +12,12 @@ To get started, follow these instructions:
     - [Git-it](https://github.com/jlord/git-it-electron#what-to-install): a hands-on tutorial to git.
 5. If you are new to Python, we recommend you read this excellent [tutorial](http://cs231n.github.io/python-numpy-tutorial/).
 6. If you are unfamiliar with Jupyter notebooks, we recommend you to follow this [tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/).
-7. Clone this repository to you computer, and install the course python environment (`wis19`) by running:
+7. Clone this repository to you computer, and install the course python environment (`wis-cv`) by running:
     - **Windows:** `environment/setup-win.bat`
     - **Linux:** `environment/setup-linux.sh`
     - **Mac:** `environment/setup-mac.sh`
 
-8. If you want to select the course environment in IDE like *PyCharm* or *VS Code*, look for the `wis19` environment.
+8. If you want to select the course environment in IDE like *PyCharm* or *VS Code*, look for the `wis-cv` environment.
 
 
 # Troubleshooting
